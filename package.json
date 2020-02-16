@@ -1,0 +1,29 @@
+{
+  "name": "secure-electron-read-write-csv",
+  "version": "0.0.1",
+  "description": "A secure way to read and write csv files within an electron app.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx babel ./src -d ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reZach/secure-electron-read-write-csv.git"
+  },
+  "keywords": [],
+  "author": "reZach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reZach/secure-electron-read-write-csv/issues"
+  },
+  "homepage": "https://github.com/reZach/secure-electron-read-write-csv#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {
+    
+  }
+}
